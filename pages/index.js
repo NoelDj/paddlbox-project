@@ -83,7 +83,10 @@ export default function Home() {
               <input type="date" className='m-1'/>
               <input type="date" className='m-1'/>
               <input type="text" className='m-1' name="" id="" />
-              <a href="checkout" className='btn btn-primary m-1'>Order</a>
+              <Link href="/checkout">
+              <a className='btn btn-primary m-1'>Order</a>
+
+              </Link>
             </form>
           </div>
         </div>
@@ -253,7 +256,7 @@ export default function Home() {
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">
                   Some quick example text to build on the card title and make up the bulk of
-                  the card's content.
+                  the cards content.
                 </p>
               </div>
             </div>
@@ -265,7 +268,7 @@ export default function Home() {
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">
                   Some quick example text to build on the card title and make up the bulk of
-                  the card's content.
+                  the cards content.
                 </p>
               </div>
             </div>
@@ -277,7 +280,7 @@ export default function Home() {
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">
                   Some quick example text to build on the card title and make up the bulk of
-                  the card's content.
+                  the cards content.
                 </p>
               </div>
             </div>

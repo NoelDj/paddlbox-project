@@ -1,8 +1,6 @@
 import { useState, useEffect } from "react";
 
-const createOrder = () => {}
-
-const checkout = () => {
+const Checkout = () => {
 
     const initialOrder = { 
         amount: 1, 
@@ -22,7 +20,7 @@ const checkout = () => {
             console.log(error);
             return initialOrder;
           }
-    }, []);
+    }, ['']);
 
     const initialValues = {
         name: "",
@@ -223,4 +221,4 @@ const checkout = () => {
      );
 }
  
-export default checkout;
+export default Checkout;
